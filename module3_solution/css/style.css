@@ -34,5 +34,30 @@ body {
 #nav-list a span {
 	font-size: 1.8em;
 }
-
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#nav-list > li {
+	padding: 0;
+}
+#nav-list hr {
+	margin-top: 0;
+	margin-bottom: 0;
+}
 /*End of header*/
+.container > h2 {
+	padding-bottom: 15px;
+}
+section {
+	background-color: #f6b319;
+	margin: 0 15px auto;
+	padding-top: 5px;
+}
+section h3 {
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+section p {
+	margin: 0 10px auto;
+}
